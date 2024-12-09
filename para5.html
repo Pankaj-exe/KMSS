@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Advanced Parallax</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts for Malayalam -->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <!-- Logo and Company Name -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="https://via.placeholder.com/40" alt="Logo" class="me-2">
+        <span>Advanced Parallax</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">about us</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="#photos">Photos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel Section with Typing Effect -->
+  <section id="home" class="vh-100">
+    <div id="carouselExample" class="carousel slide carousel-fade h-100" data-bs-ride="carousel">
+      <div class="carousel-inner h-100">
+        <!-- Slide 1 -->
+        <div class="carousel-item active h-100">
+          <div class="d-flex align-items-center justify-content-center h-100" style="background-image: url('https://via.placeholder.com/1920x1080'); background-size: cover;">
+            <div class="text-center text-shadow p-5">
+              <h1 class="display-4 fw-bold text-white">Welcome to Surat Malayalam Samajan</h1>
+              <p class="lead text-white">സൂറത്ത് മലയാളം സമാജനിലേക്ക് സ്വാഗതം</p>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item h-100">
+          <div class="d-flex align-items-center justify-content-center h-100" style="background-image: url('https://via.placeholder.com/1920x1080'); background-size: cover;">
+            <div class="text-center text-shadow p-5">
+              <h1 class="display-4 fw-bold text-white">Upcoming Event</h1>
+              <p class="lead text-white">ഞങ്ങളുടെ വരാനിരിക്കുന്ന ഇവൻ്റുകൾ</p>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item h-100">
+          <div class="d-flex align-items-center justify-content-center h-100" style="background-image: url('https://via.placeholder.com/1920x1080'); background-size: cover;">
+            <div class="text-center text-shadow p-5">
+              <h1 class="display-4 fw-bold text-white">Gathering in Our Community</h1>
+              <p class="lead text-white">ഞങ്ങളുടെ കമ്മ്യൂണിറ്റിയിൽ ഒത്തുചേരുന്നുp>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5 bg-light text-dark">
+    <div class="container text-center">
+      <h2 class="mb-4">Kerala Malayalam Samajan Surat</h2>
+      <p class="lead">We provide dynamic and immersive web designs using modern tools and frameworks.</p>
+    </div>
+  </section>
+
+  <!-- Photo Collage Section -->
+  <section id="photos" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Event Photos</h2>
+      <div class="row g-3">
+        <div class="col-6 col-md-4"><img src="https://via.placeholder.com/400" class="img-fluid rounded" alt="Photo 1"></div>
+        <div class="col-6 col-md-4"><img src="https://via.placeholder.com/400" class="img-fluid rounded" alt="Photo 2"></div>
+        <div class="col-12 col-md-4"><img src="https://via.placeholder.com/800x400" class="img-fluid rounded" alt="Photo 3"></div>
+        <div class="col-12 col-md-6"><img src="https://via.placeholder.com/600x300" class="img-fluid rounded" alt="Photo 4"></div>
+        <div class="col-12 col-md-6"><img src="https://via.placeholder.com/600x300" class="img-fluid rounded" alt="Photo 5"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-dark text-white text-center">
+    <div class="container">
+      <h2 class="mb-4">Contact Us</h2>
+      <p class="lead">Connect with us to transform your ideas into reality.</p>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 mb-3">
+          <h5>Logo</h5>
+          <img src="https://via.placeholder.com/100" alt="Logo" class="img-fluid">
+        </div>
+        <div class="col-md-2 mb-3">
+          <h5>About Us</h5>
+          <p>We are a community dedicated to creating immersive digital experiences for our users.</p>
+        </div>
+        <div class="col-md-2 mb-3">
+          <h5>Contact Us</h5>
+          <ul class="list-unstyled">
+            <li>Email: contact@domain.com</li>
+            <li>Phone: +1 234 567 890</li>
+            <li>Address: 123 Main St, Surat, India</li>
+          </ul>
+        </div>
+        <div class="col-md-2 mb-3">
+          <h5>Members</h5>
+          <ul class="list-unstyled">
+            <li>John Doe</li>
+            <li>Jane Smith</li>
+            <li>Mark Johnson</li>
+          </ul>
+        </div>
+        <div class="col-md-2 mb-3">
+          <h5>Donate</h5>
+          <p>Your contributions help us continue our mission. <a href="#" class="text-white">Donate here</a></p>
+        </div>
+        <div class="col-md-2 mb-3">
+          <h5>Beloved Once</h5>
+          <ul class="list-unstyled">
+            <li>Report: John Doe - 01 Jan 2024</li>
+            <li>Report: Jane Smith - 15 Dec 2023</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="bg-white">
+      <p class="text-center mb-0">&copy; 2024 Surat Malayalam Samajan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

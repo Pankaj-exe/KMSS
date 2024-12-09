@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samajan Surat</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+ <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="https://via.placeholder.com/40" alt="Logo" class="me-2 rounded">
+        <span class="d-none d-md-inline">Surat Malayalam Samajan</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <!-- Home Link -->
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <!-- Dropdown 1 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown1">
+              <li><a class="dropdown-item" href="#consulting">Consulting</a></li>
+              <li><a class="dropdown-item" href="#design">Design</a></li>
+              <li><a class="dropdown-item" href="#development">Development</a></li>
+            </ul>
+          </li>
+          <!-- Dropdown 2 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About Us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown2">
+              <li><a class="dropdown-item" href="#mission">Our Mission</a></li>
+              <li><a class="dropdown-item" href="#team">Our Team</a></li>
+              <li><a class="dropdown-item" href="#history">Our History</a></li>
+            </ul>
+          </li>
+          <!-- Dropdown 3 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projects
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown3">
+              <li><a class="dropdown-item" href="#current">Current Projects</a></li>
+              <li><a class="dropdown-item" href="#completed">Completed Projects</a></li>
+            </ul>
+          </li>
+          <!-- Dropdown 4 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Events
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown4">
+              <li><a class="dropdown-item" href="#upcoming">Upcoming Events</a></li>
+              <li><a class="dropdown-item" href="#past">Past Events</a></li>
+            </ul>
+          </li>
+          <!-- Contact Us -->
+          <li class="nav-item">
+            <a class="nav-link btn btn-warning px-3" href="#contact">Contact Us</a>
+          </li>
+          <!-- members-->
+          <li class="nav-item">
+            <a class="nav-link btn btn-warning px-3" href="#Member">Members</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+  <!-- Carousel Section -->
+  <section id="home" class="vh-100">
+    <div id="carouselExample" class="carousel slide carousel-fade h-100" data-bs-ride="carousel">
+      <div class="carousel-inner h-100">
+        <!-- Slide 1 -->
+        <div class="carousel-item active h-100">
+          <picture>
+            <!-- Desktop Image -->
+            <source media="(min-width: 768px)" srcset="https://via.placeholder.com/1920x1080">
+            <!-- Mobile Image -->
+            <img src="https://via.placeholder.com/720x1080" class="d-block w-100 h-100" alt="Welcome Slide">
+          </picture>
+          <div class="carousel-caption">
+            <h1 class="fw-bold text-white">Welcome to Surat Malayalam Samajan</h1>
+            <p>സൂറത്ത് മലയാളം സമാജനിലേക്ക് സ്വാഗതം</p>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item h-100">
+          <picture>
+            <source media="(min-width: 768px)" srcset="https://via.placeholder.com/1920x1080">
+            <img src="https://via.placeholder.com/720x1080" class="d-block w-100 h-100" alt="Event Slide">
+          </picture>
+          <div class="carousel-caption">
+            <h1 class="fw-bold text-white">Upcoming Event</h1>
+            <p>ഞങ്ങളുടെ വരാനിരിക്കുന്ന ഇവൻ്റുകൾ</p>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item h-100">
+          <picture>
+            <source media="(min-width: 768px)" srcset="https://via.placeholder.com/1920x1080">
+            <img src="https://via.placeholder.com/720x1080" class="d-block w-100 h-100" alt="Community Slide">
+          </picture>
+          <div class="carousel-caption">
+            <h1 class="fw-bold text-white">Gathering in Our Community</h1>
+            <p>ഞങ്ങളുടെ കമ്മ്യൂണിറ്റിയിൽ ഒത്തുചേരുന്നു</p>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5 bg-light text-dark">
+    <div class="container text-center">
+      <h2 class="mb-4">Kerala Malayalam Samajan Surat</h2>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quo ipsum eum dignissimos ipsam illum reiciendis, nam sunt qui corporis, placeat ipsa? Natus expedita sequi ullam ut delectus voluptatum sunt autem, esse itaque laudantium consequatur repellendus praesentium ab. Neque vel sed beatae quod est atque tempora unde. Neque laborum, dolor cum ducimus adipisci animi eum? Praesentium earum adipisci dolorum magni, voluptatem delectus nisi consequatur nostrum numquam error quasi cupiditate facilis ullam voluptatum eaque iusto, totam mollitia. Ullam commodi velit nemo ratione inventore voluptates et earum animi, repudiandae, hic aperiam asperiores excepturi est eos ipsum odit distinctio! Dolores esse sapiente facilis laboriosam quae rerum reprehenderit et ea, odio hic impedit voluptatem eveniet cupiditate. Explicabo, unde! Nemo, ducimus consectetur officiis minus consequuntur quaerat amet assumenda repudiandae suscipit numquam neque sed rem, error sint ut officia hic sunt animi facere, at reprehenderit maxime accusantium fuga. Tempora distinctio temporibus hic voluptas eos, obcaecati voluptatibus ducimus qui dignissimos aspernatur laboriosam sunt deleniti asperiores modi in excepturi, dolorem illo beatae esse eveniet praesentium? Explicabo dicta ipsam officiis pariatur modi aperiam reiciendis, voluptatum quae molestias quo nam tempore cumque veritatis nulla reprehenderit, architecto harum mollitia necessitatibus praesentium repudiandae ullam beatae recusandae sunt? Obcaecati dolorem quos accusantium soluta?</p>
+    </div>
+  </section>
+
+  <!-- Photo Collage Section -->
+  <section id="photos" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Event Photos</h2>
+      <div class="row g-3">
+        <div class="col-6 col-md-4"><img src="https://via.placeholder.com/400" class="img-fluid rounded" alt="Photo 1"></div>
+        <div class="col-6 col-md-4"><img src="https://via.placeholder.com/400" class="img-fluid rounded" alt="Photo 2"></div>
+        <div class="col-12 col-md-4"><img src="https://via.placeholder.com/800x400" class="img-fluid rounded" alt="Photo 3"></div>
+        <div class="col-12 col-md-6"><img src="https://via.placeholder.com/600x300" class="img-fluid rounded" alt="Photo 4"></div>
+        <div class="col-12 col-md-6"><img src="https://via.placeholder.com/600x300" class="img-fluid rounded" alt="Photo 5"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+<section id="contact" class="py-5 bg-warning text-dark text-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="fw-bold mb-4">Contact Us</h2>
+          <p class="lead">We’d love to hear from you! Reach out to us using the information below.</p>
+        </div>
+      </div>
+      <div class="row justify-content-center g-4 mt-4">
+        <!-- Contact Card 1 -->
+        <div class="col-12 col-md-4">
+          <div class="card border-0 shadow-lg">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Email Us</h5>
+              <p class="card-text">📧 contact@domain.com</p>
+            </div>
+          </div>
+        </div>
+        <!-- Contact Card 2 -->
+        <div class="col-12 col-md-4">
+          <div class="card border-0 shadow-lg">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Call Us</h5>
+              <p class="card-text">📞 +1 234 567 890</p>
+            </div>
+          </div>
+        </div>
+        <!-- Contact Card 3 -->
+        <div class="col-12 col-md-4">
+          <div class="card border-0 shadow-lg">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Visit Us</h5>
+              <p class="card-text">📍 123 Main St, Surat, India</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 mb-3">
+          <h5>Logo</h5>
+          <img src="https://via.placeholder.com/100" alt="Logo" class="img-fluid rounded">
+        </div>
+        <div class="col-md-2 mb-3">
+          <h5>About Us</h5>
+          <p>We are a community dedicated to creating immersive digital experiences for our users.</p>
+        </div>
+        <div class="col-md-2 mb-3">
+          <h5>Members</h5>
+          <ul class="list-unstyled">
+            <li>John Doe</li>
+            <li>Jane Smith</li>
+            <li>Mark Johnson</li>
+          </ul>
+        </div>
+        <div class="col-md-2 mb-3">
+          <h5>Donate</h5>
+          <p>Your contributions help us continue our mission. <a href="#" class="text-white">Donate here</a></p>
+        </div>
+        <div class="col-md-2 mb-3">
+          <h5>Beloved Once</h5>
+          <ul class="list-unstyled">
+            <li>Report: John Doe - 01 Jan 2024</li>
+            <li>Report: Jane Smith - 15 Dec 2023</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="bg-white">
+      <p class="text-center mb-0">&copy; 2024 Surat Malayalam Samajan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
